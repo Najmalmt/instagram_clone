@@ -1,23 +1,3 @@
-// import Home from "./Home";
-// import Search from "./Search";
-// import Notifications from "./Notifications";
-// import CreatePost from "./CreatePost";
-// import ProfileLink from "./ProfileLink";
-
-// const SidebarItems = () => {
-// 	return (
-// 		<div className="flex flex-col gap-5">
-// 			<Home />
-// 			<Search />
-// 			<Notifications />
-// 			<CreatePost />
-// 			<ProfileLink />
-// 		</div>
-// 	);
-// };
-
-// export default SidebarItems;
-
 import React from "react";
 import Home from "./Home";
 import Search from "./Search";

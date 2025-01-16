@@ -1,45 +1,4 @@
-// import ProfilePost from "./ProfilePost";
-// import useGetUserPosts from "../../hooks/useGetUserPosts";
-
-// const ProfilePosts = () => {
-// 	const { isLoading, posts } = useGetUserPosts();
-
-// 	const noPostsFound = !isLoading && posts.length === 0;
-// 	if (noPostsFound) return <NoPostsFound />;
-
-// 	return (
-// 		<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-1">
-// 			{isLoading &&
-// 				[0, 1, 2].map((_, idx) => (
-// 					<div key={idx} className="flex flex-col items-start gap-4">
-// 						<div className="w-full h-72 bg-gray-300 animate-pulse"></div>
-// 					</div>
-// 				))}
-
-// 			{!isLoading && (
-// 				<>
-// 					{posts.map((post) => (
-// 						<ProfilePost post={post} key={post.id} />
-// 					))}
-// 				</>
-// 			)}
-// 		</div>
-// 	);
-// };
-
-// export default ProfilePosts;
-
-// const NoPostsFound = () => {
-// 	return (
-// 		<div className="flex flex-col items-center text-center mx-auto mt-10">
-// 			<p className="text-2xl">No Posts Found🤔</p>
-// 		</div>
-// 	);
-// };
-
 "use client";
-
-import { Heart, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import useGetUserPosts from "../../hooks/useGetUserPosts";
 

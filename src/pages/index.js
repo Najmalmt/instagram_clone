@@ -1,32 +1,3 @@
-// "use client";
-
-// import React from "react";
-// import FeedPosts from "../components/FeedPosts/FeedPosts";
-// import SuggestedUsers from "../components/SuggestedUsers/SuggestedUsers";
-// import PageLayouts from "../layouts/PageLayouts";
-
-// const HomePage = () => {
-// 	return (
-// 		<PageLayouts>
-// 			<div className="container mx-auto px-4 lg:px-0">
-// 				<div className="flex gap-20">
-// 					{/* Left section: Feed posts */}
-// 					<div className="flex-2 py-10">
-// 						<FeedPosts />
-// 					</div>
-
-// 					{/* Right section: Suggested Users */}
-// 					<div className="flex-3 mr-20 hidden lg:block max-w-xs">
-// 						<SuggestedUsers />
-// 					</div>
-// 				</div>
-// 			</div>
-// 		</PageLayouts>
-// 	);
-// };
-
-// export default HomePage;
-
 "use client";
 
 import React from "react";

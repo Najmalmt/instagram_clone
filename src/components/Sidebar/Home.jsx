@@ -1,27 +1,3 @@
-// import { AiFillHome } from "react-icons/ai";
-// import Link from "next/link"; // Use Next.js Link for routing
-
-// const Home = () => {
-// 	return (
-// 		<div className="relative group">
-// 			<div className="tooltip group-hover:block absolute top-0 left-1/2 transform -translate-x-1/2 bg-gray-700 text-white rounded-md py-1 px-2 text-sm hidden">
-// 				Home
-// 			</div>
-
-// 			<Link
-// 				href="/"
-// 				passHref
-// 				className="flex items-center gap-4 p-2 rounded-lg hover:bg-whiteAlpha-400 w-10 justify-center md:flex-row group"
-// 			>
-// 				<AiFillHome size={25} />
-// 				<span className="hidden md:block">Home</span>
-// 			</Link>
-// 		</div>
-// 	);
-// };
-
-// export default Home;
-
 "use client";
 
 import React from "react";
